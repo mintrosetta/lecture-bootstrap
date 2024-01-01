@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- 
+        int คือจำนวน column ที่อยากให้ทำงานใน smartphone ซึ่งจะช่วยให้เราแบ่งจำนวน column ให้แต่ละเนื้อหาได้
+            เช่น .col-sm-6 คือเมื่อหน้าจอมีขนาดมากกว่า 576px ให้เนื้อหานี้มีพื้นที่ 6 column 
+
+        xs      <576px      .col-int
+        sm      >=576px     .col-sm-int     มือถือทั่วไป
+        md      >=768px     .col-md-int     แท็บเล็ต
+        lg      >=992px     .col-lf-int     หน้าจอคอม
+        xl      >=1200px    .col-xl-int
+        xxl     >=1400px    .col-xxl-int
+         <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-2 bg-primary">
+                1
+            </div>
+            <div class="col-sm-5 col-2 bg-warning">
+                2
+            </div>
+            <div class="col-sm-1 col-2 bg-secondary">
+                3
+            </div>
+        </div>
+    </div>
+     -->
+
+     
+     <div class="container">
+
+        <!-- 100% -->
+        <div class="row">
+            <div class="col-sm-12 bg-success">
+                area
+            </div>
+        </div>
+        <br>
+
+        <!-- 50% -->
+        <div class="row">
+            <div class="col-sm-6 col-12 bg-primary">
+                area
+            </div>
+            <div class="col-sm-6 col-12 bg-secondary">
+                area
+            </div>
+        </div>
+        <br>
+
+        <!-- 33.33% -->
+        <div class="row">
+            <div class="col-sm-4 col-12 bg-primary">
+                area
+            </div>
+            <div class="col-sm-4 col-12 bg-secondary">
+                area
+            </div>
+            <div class="col-sm-4 col-12 bg-warning">
+                area
+            </div>
+        </div>
+        <br>
+
+        <!-- 25% -->
+        <div class="row">
+            <div class="col-sm-3 col-12 bg-primary">
+                area
+            </div>
+            <div class="col-sm-3 col-12 bg-secondary">
+                area
+            </div>
+            <div class="col-sm-3 col-6 bg-warning">
+                area
+            </div>
+            <div class="col-sm-3 col-6 bg-success">
+                area
+            </div>
+        </div>
+        <br>
+     </div>
+
+     
+</body>
+
+</html>
